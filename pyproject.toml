@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mnist-test"
+version = "0.1.0"
+description = ""
+authors = ["Chris Hunt <chris.hunt@hudl.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.6.1"
+ipyplot = "^1.1.2"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
